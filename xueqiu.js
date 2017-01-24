@@ -1,4 +1,9 @@
-var request = require('request').defaults({gzip:true});
+var request = require('request').defaults({
+  gzip:true,
+  headers:{
+    'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'
+  }
+});
 var fs = require('fs');
 var xq_a_token = require('./token.json').xq_a_token;
 
