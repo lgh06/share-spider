@@ -1,0 +1,15 @@
+{
+  "name": "share_spider",
+  "version": "0.0.1",
+  "description": "share spider",
+  "main": "xueqiu.js",
+  "dependencies": {
+    "request": "^2.79.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"aha\""
+  },
+  "author": "lgh06",
+  "license": "GPL"
+}
